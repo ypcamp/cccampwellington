@@ -6,12 +6,49 @@
         height: 100%;
     }
 
+    .center {
+        margin: 50px;        
+        overflow: auto;
+    }
+
+    .logo {
+        float: right;         
+    }
+
+    .text {
+        margin: 10px;
+    }
 
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
       margin-bottom: 0;
       background-color: #c6ce2e!important;
       border-radius: 0 !important;
+    }
+
+    .navvy {
+        color: aqua;
+        background-color: #c6ce2e;
+    }
+
+    .navvy:hover {
+        color: white;
+        background-color: #c6ce2e;
+    }
+
+    .navvy:active {
+        color: white;
+        background-color: #c6ce2e;
+    }
+
+    .navvy:visited {
+        color: white;
+    }
+
+    .main_image { 
+        margin-top:50px;
+        margin-left:70px;
+        margin-right:70px;
     }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -41,12 +78,14 @@
       #footer {
         height: 75px;      
       }
+      .main_image { margin:10px; }
+        .center { margin:50px; }    
     }
 
   img {
        width: auto;
       max-width: 95%;
-  }
+  }    
 
   body {
     text-align: center;
