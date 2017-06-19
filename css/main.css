@@ -26,8 +26,12 @@
       border-radius: 0 !important;
     }
 
+    .navbar-inverse .navbar-nav>li>a {
+        color: black;
+    }
+
     .navvy {
-        color: aqua;
+        color: black;
         background-color: #c6ce2e;
     }
 
