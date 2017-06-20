@@ -2,22 +2,7 @@
     * {
         margin: 0;
     }
-    html, body {
-        height: 100%;
-    }
-
-    .center {
-        margin: 50px;        
-        overflow: auto;
-    }
-
-    .logo {
-        float: right;         
-    }
-
-    .text {
-        margin: 10px;
-    }
+    
 
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
@@ -26,8 +11,16 @@
       border-radius: 0 !important;
     }
 
+    .navbar-inverse .navbar-nav {
+        margin-left: 16%;
+    }
+
     .navbar-inverse .navbar-nav>li>a {
         color: black;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        background-color: #c6ce2e;
     }
 
     .navvy {
@@ -49,10 +42,27 @@
         color: white;
     }
 
-    .main_image { 
-        margin-top:50px;
-        margin-left:70px;
-        margin-right:70px;
+    html, body {
+        height: 100%;
+    }
+
+    .center {
+        margin-bottom: 20px;        
+        overflow: auto;
+        text-align: left;
+    }
+
+    .logo {
+        float: right;  
+        margin: 20px;
+    }
+
+    .text {
+        margin: 0px;
+    }
+
+    .main_image {         
+        
     }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -82,13 +92,16 @@
       #footer {
         height: 75px;      
       }
-      .main_image { margin:10px; }
-        .center { margin:50px; }    
+      .main_image { margin:0px; }
+        .center { margin:0px; }   
+      .navbar-inverse .navbar-nav {
+          margin-left: 0px;
+        }
     }
 
   img {
        width: auto;
-      max-width: 95%;
+      max-width: 100%;
   }    
 
   body {
