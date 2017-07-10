@@ -13,6 +13,7 @@
 
     .navbar-inverse .navbar-nav {
         margin-left: 16%;
+        margin-right: 16%;
     }
 
     .navbar-inverse .navbar-nav>li>a {
